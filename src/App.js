@@ -10,9 +10,10 @@ function App() {
     <>
       <Navbar />
       <Hero />
-      {/* <ScrollToTop />
       <Services />
       <Recommend />
+
+      {/* <ScrollToTop />
       <Testimonials />
       <Footer /> */}
     </>

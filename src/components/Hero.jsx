@@ -4,9 +4,9 @@ import homeImage from "../assets/hero.png";
 
 export default function Hero() {
   return (
-    <Section>
+    <Section id="hero">
       <div className="background">
-        <img src={homeImage} alt="/" />
+        <img src={homeImage} alt="" />
       </div>
       <div className="content">
         <div className="title">
@@ -42,7 +42,6 @@ const Section = styled.section`
   margin-top: 2rem;
   width: 100%;
   height: 100%;
-
   .background {
     height: 100%;
     img {
@@ -59,8 +58,8 @@ const Section = styled.section`
     text-align: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     gap: 1rem;
     .title {
       color: white;
@@ -96,9 +95,8 @@ const Section = styled.section`
           text-align: center;
           color: black;
           &[type="date"] {
-            padding-left: 3rem;
+            padding-left: 1rem;
           }
-
           &::placeholder {
             color: black;
           }
