@@ -12,9 +12,9 @@ function App() {
       <Hero />
       <Services />
       <Recommend />
+      <Testimonials />
 
       {/* <ScrollToTop />
-      <Testimonials />
       <Footer /> */}
     </>
   );

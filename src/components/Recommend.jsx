@@ -125,6 +125,7 @@ const Section = styled.section`
       li {
         padding: 1rem 2rem;
         border-bottom: 0.1rem solid black;
+        cursor: pointer;
       }
       .active {
         border-bottom: 0.5rem solid #8338ec;
